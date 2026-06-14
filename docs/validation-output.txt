@@ -1,0 +1,24 @@
+Torch: 2.11.0+cu128
+CUDA: 12.8
+GPU: NVIDIA GeForce RTX 5070 Laptop GPU
+Compute Capability: (12, 0)
+
+Testing torch.float16
+PASS torch.Size([1, 9600, 1, 512]) torch.float16 finite=True
+
+Testing torch.float32
+FAIL
+
+Summary:
+float16: PASS
+float32: FAIL
+
+A1111 runtime validation:
+AUTOMATIC1111 was launched with --xformers.
+WebUI launched successfully.
+Model loaded successfully.
+Generation completed successfully.
+No xFormers runtime errors were observed.
+Fast iteration testing completed.
+
+Note: This was validation of the full MSLK + xFormers stack, not MSLK alone.

@@ -1,0 +1,10 @@
+*.whl
+*.zip
+*.tar.gz
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
