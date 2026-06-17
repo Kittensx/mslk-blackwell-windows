@@ -181,7 +181,7 @@ Companion repository:
 
 ```text
 xformers-blackwell-windows
-https://github.com/YOUR_USERNAME/xformers-blackwell-windows
+https://github.com/kittensx/xformers-blackwell-windows
 ```
 
 ## 13. Recommended Usage
